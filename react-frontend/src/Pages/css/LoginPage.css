@@ -1,0 +1,28 @@
+.LoginPage {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.FormPaper {
+  display: flex;
+  flex-direction: column;
+
+  height: 250px;
+  width: 400px;
+
+  padding: 10px;
+  box-sizing: border-box;
+}
+.LoginForm {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+.LoginForm > * {
+  margin: 5px !important;
+}
+.Grow {
+  flex-grow: 1;
+}
