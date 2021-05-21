@@ -1,0 +1,2 @@
+.Paper{height:100vh;width:100vw;display:flex;justify-content:center;flex-direction:column}*{margin:0}.LoginPage{display:flex;justify-content:center;padding-top:50px}.FormPaper{height:250px;width:400px;padding:10px;box-sizing:border-box}.FormPaper,.LoginForm{display:flex;flex-direction:column}.LoginForm{height:100%;width:100%}.LoginForm>*{margin:5px!important}.Grow{flex-grow:1}
+/*# sourceMappingURL=main.7bedffea.chunk.css.map */
