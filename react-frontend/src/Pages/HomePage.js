@@ -26,7 +26,11 @@ export const HomePage = () => {
   return (
     <div className="HomePage">
       {krakenInfo.loggedIn ? (
-        <Typography>Home Page:</Typography>
+        <>
+          <Typography>Home Page:</Typography>
+          <Typography>Balance: {krakenInfo.balance}</Typography>
+          <TradesTable trades={krakenInfo.trades} />
+        </>
       ) : (
         <Redirect to="/login" />
       )}
